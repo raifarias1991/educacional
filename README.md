@@ -5,7 +5,7 @@
 
 Uma aplicação educacional interativa para ensinar conceitos de robótica e programação, com foco especial em Arduino. Criado com Next.js, React e Tailwind CSS, o projeto visa facilitar o aprendizado prático por meio de conteúdo teórico, tutoriais e projetos aplicados.
 
-Acesse a aplicação online: (https://educacional-robotica.vercel.app)
+Acesse a aplicação online: https://educacional-robotica.vercel.app
 
 ## Funcionalidades
 
