@@ -1,11 +1,10 @@
----
-
 ````markdown
 # Robotics Educational App
 
 Uma aplicação educacional interativa para ensinar conceitos de robótica e programação, com foco especial em Arduino. Criado com Next.js, React e Tailwind CSS, o projeto visa facilitar o aprendizado prático por meio de conteúdo teórico, tutoriais e projetos aplicados.
 
-Acesse a aplicação online: https://educacional-robotica.vercel.app
+**Acesse a aplicação online:**  
+👉 [https://educacional-robotica.vercel.app](https://educacional-robotica.vercel.app)
 
 ## Funcionalidades
 
@@ -41,7 +40,7 @@ pnpm install
 pnpm dev
 ````
 
-Abra `http://localhost:3000` no navegador para visualizar a aplicação.
+Abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar a aplicação.
 
 > Observação: Também é possível utilizar `npm` ou `yarn`, mas este projeto está configurado com `pnpm`.
 
@@ -60,3 +59,4 @@ app/
 │   │   └── sensor-ultrassonico/
 ├── projetos/                # Projetos práticos
 ```
+
