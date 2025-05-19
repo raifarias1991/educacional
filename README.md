@@ -1,30 +1,62 @@
-# Educacional
+---
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+````markdown
+# Robotics Educational App
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/raifloripa2020-gmailcoms-projects/v0-educacional)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/IsXHvMcFObM)
+Uma aplicação educacional interativa para ensinar conceitos de robótica e programação, com foco especial em Arduino. Criado com Next.js, React e Tailwind CSS, o projeto visa facilitar o aprendizado prático por meio de conteúdo teórico, tutoriais e projetos aplicados.
 
-## Overview
+Acesse a aplicação online: (https://educacional-robotica.vercel.app)
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Funcionalidades
 
-## Deployment
+- Seção **Teoria** com explicações sobre conceitos fundamentais de robótica
+- Seção **Programação** com tutoriais práticos:
+  - Introdução à lógica
+  - Programação com Arduino
+  - Manipulação de LEDs, botões e sensores
+- Seção **Projetos** com ideias práticas para fixação do conteúdo
+- Suporte a tema claro e escuro
+- Interface moderna com componentes reutilizáveis
 
-Your project is live at:
+## Tecnologias Utilizadas
 
-**[https://vercel.com/raifloripa2020-gmailcoms-projects/v0-educacional](https://vercel.com/raifloripa2020-gmailcoms-projects/v0-educacional)**
+- [Next.js 15](https://nextjs.org/)
+- [React 19](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Zod](https://zod.dev/) + [React Hook Form](https://react-hook-form.com/)
+- [Recharts](https://recharts.org/)
+- [Lucide Icons](https://lucide.dev/)
 
-## Build your app
+## Instalação e Execução
 
-Continue building your app on:
+Pré-requisitos: [Node.js](https://nodejs.org/) instalado (versão 18 ou superior recomendada)
 
-**[https://v0.dev/chat/projects/IsXHvMcFObM](https://v0.dev/chat/projects/IsXHvMcFObM)**
+```bash
+# Instale as dependências com pnpm
+pnpm install
 
-## How It Works
+# Inicie o servidor de desenvolvimento
+pnpm dev
+````
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Abra `http://localhost:3000` no navegador para visualizar a aplicação.
+
+> Observação: Também é possível utilizar `npm` ou `yarn`, mas este projeto está configurado com `pnpm`.
+
+## Estrutura do Projeto
+
+```
+app/
+├── layout.tsx               # Layout principal
+├── globals.css              # Estilos globais
+├── page.tsx                 # Página inicial
+├── teoria/                  # Conteúdo teórico
+├── programacao/             # Tutoriais de programação
+│   ├── arduino/
+│   │   ├── leds/
+│   │   ├── botoes/
+│   │   └── sensor-ultrassonico/
+├── projetos/                # Projetos práticos
+```
